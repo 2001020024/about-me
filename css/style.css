@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;1,100;1,200;1,600;1,700;1,800&display=swap');
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: rgb(18, 17, 17);
+    line-height: 1.5;
+    letter-spacing: 1px;
+  
+}
+body, html
+{
+    background-image: url('../image/umrah.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.wrapping
+{
+    min-height: 100vh;
+    width: 100%;
+
+}
+.test
+{
+    padding: 30px 100px;
+}
+article h1
+{
+    font-size: 50px;
+    font-weight: 800;
+    text-transform: uppercase;
+    background-color: white;
+    margin: 10px auto;
+    width: 300px;
+    border-radius: 12px;
+    padding: 10px;
+}
+article h1::after
+{
+    content: "";
+    height: 5px;
+    width: 225px;
+    background-color: rgb(17, 14, 14);
+    display: block;
+    margin: auto;
+}
+article img
+{
+    height: 200px;
+    width: 200px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    margin: 60px 5px -10px 5px;
+
+}
+blockquote
+{
+    font-family: sans-serif;
+    font-size: 20px;
+    margin: 5px;
+}
+article h5
+{
+    text-transform: uppercase;
+    font-size: 28px;
+    margin: 5px;
+}
+article p
+{
+    font-size: 17px;
+}
+.bio
+{
+    background-color: white;
+    margin: 10px auto;
+    width: 300px;
+    border-radius: 12px;
+    padding: 10px;
+}
+.story
+{
+    background-color: white;
+    margin: 10px auto;
+    width: 800px;
+    border-radius: 12px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
